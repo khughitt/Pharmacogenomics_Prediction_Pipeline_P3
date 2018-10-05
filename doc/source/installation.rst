@@ -37,8 +37,18 @@ example in an isolated environment:
    cd Pharmacogenomics_Prediction_Pipeline_P3
 
 
-- Run `snakemake` using the `prepare_example_data` rule to unzip the example
-  data into the aptly-named `example_data` directory::
+- Copy the example configuration file from `extra` to the root P3 dir directory::
+
+   cp extra/demo.config.yaml config.yaml
+
+
+- Copy the example filter functions from `extra` to the root P3 dir directory::
+
+   cp extra/demo_filterfuncs.py filterfuncs.py
+
+
+- Run `snakemake` using the `prepare_example_data` rule to copy a small example dataset 
+  into the aptly-named `example_data` directory::
 
     snakemake prepare_example_data
 

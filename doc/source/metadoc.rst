@@ -43,7 +43,7 @@ Run `build-docs.sh`
 
 Run::
 
-    ./build-docs.sh
+    ./extra/build-docs.sh
 
 This will build and upload docs to the currently-configured origin. If this is
 run on your fork of the P3 code, it will upload the docs to your fork, such
@@ -55,7 +55,7 @@ If you would like to build and upload for another repo that you have write
 access to -- say, to update the docs in the main repo -- then pass that repo as
 the first argument to `build-docs.sh`.  E.g.,::
 
-    ./build-docs.sh git@github.com:NCBI-Hackathons/Pharmacogenomics_Prediction_Pipeline_P3.git
+    ./extra/build-docs.sh git@github.com:NCBI-Hackathons/Pharmacogenomics_Prediction_Pipeline_P3.git
 
 Merge master with gh-pages branch
 ---------------------------------
