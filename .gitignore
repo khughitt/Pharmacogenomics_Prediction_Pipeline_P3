@@ -1,6 +1,6 @@
 .snakemake
 doc/build
-example_data
+/example_data
 *.swp
 *.html
 *.pyc

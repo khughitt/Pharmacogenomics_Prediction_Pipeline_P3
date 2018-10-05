@@ -1,0 +1,272 @@
+ENSEMBL	GO	EVIDENCE	ONTOLOGY	TERM
+ENSG00000103415	GO:0001666	IDA	BP	response to hypoxia
+ENSG00000103415	GO:0004392	IDA	MF	heme oxygenase (decyclizing) activity
+ENSG00000103415	GO:0005515	IPI	MF	protein binding
+ENSG00000103415	GO:0005789	TAS	CC	endoplasmic reticulum membrane
+ENSG00000103415	GO:0005886	IDA	CC	plasma membrane
+ENSG00000103415	GO:0006778	TAS	BP	porphyrin-containing compound metabolic process
+ENSG00000103415	GO:0006788	IEA	BP	heme oxidation
+ENSG00000103415	GO:0006879	TAS	BP	cellular iron ion homeostasis
+ENSG00000103415	GO:0016020	IDA	CC	membrane
+ENSG00000103415	GO:0042167	TAS	BP	heme catabolic process
+ENSG00000103415	GO:0044281	TAS	BP	small molecule metabolic process
+ENSG00000103415	GO:0046872	IEA	MF	metal ion binding
+ENSG00000103415	GO:0055085	TAS	BP	transmembrane transport
+ENSG00000163106	GO:0000287	IDA	MF	magnesium ion binding
+ENSG00000163106	GO:0004364	IEA	MF	glutathione transferase activity
+ENSG00000163106	GO:0004667	EXP	MF	prostaglandin-D synthase activity
+ENSG00000163106	GO:0004667	IDA	MF	prostaglandin-D synthase activity
+ENSG00000163106	GO:0005509	IDA	MF	calcium ion binding
+ENSG00000163106	GO:0005515	IPI	MF	protein binding
+ENSG00000163106	GO:0005737	TAS	CC	cytoplasm
+ENSG00000163106	GO:0005829	TAS	CC	cytosol
+ENSG00000163106	GO:0006693	IDA	BP	prostaglandin metabolic process
+ENSG00000163106	GO:0006805	TAS	BP	xenobiotic metabolic process
+ENSG00000163106	GO:0007165	NAS	BP	signal transduction
+ENSG00000163106	GO:0007626	TAS	BP	locomotory behavior
+ENSG00000163106	GO:0019369	TAS	BP	arachidonic acid metabolic process
+ENSG00000163106	GO:0019371	TAS	BP	cyclooxygenase pathway
+ENSG00000163106	GO:0042803	IPI	MF	protein homodimerization activity
+ENSG00000163106	GO:0044281	TAS	BP	small molecule metabolic process
+ENSG00000163106	GO:1901687	TAS	BP	glutathione derivative biosynthetic process
+ENSG00000146574	GO:0005765	IEA	CC	lysosomal membrane
+ENSG00000146574	GO:0016192	IBA	BP	vesicle-mediated transport
+ENSG00000146574	GO:0031988	IBA	CC	membrane-bounded vesicle
+ENSG00000146574	GO:0043231	IBA	CC	intracellular membrane-bounded organelle
+ENSG00000089177	GO:0001704	ISS	BP	formation of primary germ layer
+ENSG00000089177	GO:0001919	IMP	BP	regulation of receptor recycling
+ENSG00000089177	GO:0005524	IEA	MF	ATP binding
+ENSG00000089177	GO:0005547	IDA	MF	phosphatidylinositol-3,4,5-trisphosphate binding
+ENSG00000089177	GO:0005768	IDA	CC	endosome
+ENSG00000089177	GO:0005769	IDA	CC	early endosome
+ENSG00000089177	GO:0005871	IBA	CC	kinesin complex
+ENSG00000089177	GO:0005874	IEA	CC	microtubule
+ENSG00000089177	GO:0006895	ISS	BP	Golgi to endosome transport
+ENSG00000089177	GO:0007018	IBA	BP	microtubule-based movement
+ENSG00000089177	GO:0007173	IMP	BP	epidermal growth factor receptor signaling pathway
+ENSG00000089177	GO:0007492	ISS	BP	endoderm development
+ENSG00000089177	GO:0008017	IEA	MF	microtubule binding
+ENSG00000089177	GO:0008543	ISS	BP	fibroblast growth factor receptor signaling pathway
+ENSG00000089177	GO:0008574	IDA	MF	ATP-dependent microtubule motor activity, plus-end-directed
+ENSG00000089177	GO:0016887	IBA	MF	ATPase activity
+ENSG00000089177	GO:0017137	IEA	MF	Rab GTPase binding
+ENSG00000089177	GO:0031901	IEA	CC	early endosome membrane
+ENSG00000089177	GO:0032266	IDA	MF	phosphatidylinositol-3-phosphate binding
+ENSG00000089177	GO:0032801	IMP	BP	receptor catabolic process
+ENSG00000089177	GO:0043325	IDA	MF	phosphatidylinositol-3,4-bisphosphate binding
+ENSG00000089177	GO:0045022	IMP	BP	early endosome to late endosome transport
+ENSG00000089177	GO:0080025	IDA	MF	phosphatidylinositol-3,5-bisphosphate binding
+ENSG00000172339	GO:0005789	TAS	CC	endoplasmic reticulum membrane
+ENSG00000172339	GO:0006488	TAS	BP	dolichol-linked oligosaccharide biosynthetic process
+ENSG00000172339	GO:0016021	IEA	CC	integral component of membrane
+ENSG00000172339	GO:0018279	TAS	BP	protein N-linked glycosylation via asparagine
+ENSG00000172339	GO:0043687	TAS	BP	post-translational protein modification
+ENSG00000172339	GO:0044267	TAS	BP	cellular protein metabolic process
+ENSG00000088543	GO:0016021	IEA	CC	integral component of membrane
+ENSG00000154814	GO:0003674	ND	MF	molecular_function
+ENSG00000154814	GO:0005575	ND	CC	cellular_component
+ENSG00000154814	GO:0005739	IEA	CC	mitochondrion
+ENSG00000154814	GO:0008150	ND	BP	biological_process
+ENSG00000154814	GO:0016491	IEA	MF	oxidoreductase activity
+ENSG00000154814	GO:0055114	IEA	BP	oxidation-reduction process
+ENSG00000111249	GO:0000122	IDA	BP	negative regulation of transcription from RNA polymerase II promoter
+ENSG00000111249	GO:0000977	ISS	MF	RNA polymerase II regulatory region sequence-specific DNA binding
+ENSG00000111249	GO:0005634	IDA	CC	nucleus
+ENSG00000111249	GO:0006351	IEA	BP	transcription, DNA-templated
+ENSG00000111249	GO:0007614	ISS	BP	short-term memory
+ENSG00000111249	GO:0010628	ISS	BP	positive regulation of gene expression
+ENSG00000111249	GO:0043565	IDA	MF	sequence-specific DNA binding
+ENSG00000111249	GO:0050775	ISS	BP	positive regulation of dendrite morphogenesis
+ENSG00000111249	GO:0050890	IMP	BP	cognition
+ENSG00000111249	GO:0051965	ISS	BP	positive regulation of synapse assembly
+ENSG00000111249	GO:0061003	ISS	BP	positive regulation of dendritic spine morphogenesis
+ENSG00000111249	GO:0070062	IDA	CC	extracellular vesicular exosome
+ENSG00000111249	GO:0071310	IEA	BP	cellular response to organic substance
+ENSG00000111249	GO:2000463	ISS	BP	positive regulation of excitatory postsynaptic membrane potential
+ENSG00000186088	GO:0001540	IDA	MF	beta-amyloid binding
+ENSG00000186088	GO:0005802	IDA	CC	trans-Golgi network
+ENSG00000186088	GO:0030162	IDA	BP	regulation of proteolysis
+ENSG00000186088	GO:1902004	IDA	BP	positive regulation of beta-amyloid formation
+ENSG00000066027	GO:0000159	IDA	CC	protein phosphatase type 2A complex
+ENSG00000066027	GO:0000775	IEA	CC	chromosome, centromeric region
+ENSG00000066027	GO:0005515	IPI	MF	protein binding
+ENSG00000066027	GO:0005634	IEA	CC	nucleus
+ENSG00000066027	GO:0005737	IDA	CC	cytoplasm
+ENSG00000066027	GO:0007165	IEA	BP	signal transduction
+ENSG00000066027	GO:0008601	IEA	MF	protein phosphatase type 2A regulator activity
+ENSG00000066027	GO:0016020	IDA	CC	membrane
+ENSG00000066027	GO:0019900	IPI	MF	kinase binding
+ENSG00000066027	GO:0030018	IEA	CC	Z disc
+ENSG00000066027	GO:0031430	ISS	CC	M band
+ENSG00000066027	GO:0035307	IMP	BP	positive regulation of protein dephosphorylation
+ENSG00000066027	GO:0090005	IMP	BP	negative regulation of establishment of protein localization to plasma membrane
+ENSG00000066027	GO:0090219	IMP	BP	negative regulation of lipid kinase activity
+ENSG00000086506	GO:0005344	IEA	MF	oxygen transporter activity
+ENSG00000086506	GO:0005506	IEA	MF	iron ion binding
+ENSG00000086506	GO:0005515	IPI	MF	protein binding
+ENSG00000086506	GO:0005833	IEA	CC	hemoglobin complex
+ENSG00000086506	GO:0015671	IEA	BP	oxygen transport
+ENSG00000086506	GO:0019825	IEA	MF	oxygen binding
+ENSG00000086506	GO:0020037	IEA	MF	heme binding
+ENSG00000185278	GO:0003677	IEA	MF	DNA binding
+ENSG00000185278	GO:0005634	IEA	CC	nucleus
+ENSG00000185278	GO:0006351	IEA	BP	transcription, DNA-templated
+ENSG00000185278	GO:0006355	IEA	BP	regulation of transcription, DNA-templated
+ENSG00000185278	GO:0046872	IEA	MF	metal ion binding
+ENSG00000113722	GO:0000980	IDA	MF	RNA polymerase II distal enhancer sequence-specific DNA binding
+ENSG00000113722	GO:0001205	IDA	MF	RNA polymerase II distal enhancer sequence-specific DNA binding transcription factor activity involved in positive regulation of transcription
+ENSG00000113722	GO:0005515	IPI	MF	protein binding
+ENSG00000113722	GO:0005634	IEA	CC	nucleus
+ENSG00000113722	GO:0009887	TAS	BP	organ morphogenesis
+ENSG00000113722	GO:0009952	IEA	BP	anterior/posterior pattern specification
+ENSG00000113722	GO:0045944	IDA	BP	positive regulation of transcription from RNA polymerase II promoter
+ENSG00000113722	GO:0060349	IEA	BP	bone morphogenesis
+ENSG00000162624	GO:0001674	IEA	CC	female germ cell nucleus
+ENSG00000162624	GO:0005515	IPI	MF	protein binding
+ENSG00000162624	GO:0006351	IEA	BP	transcription, DNA-templated
+ENSG00000162624	GO:0006355	IEA	BP	regulation of transcription, DNA-templated
+ENSG00000162624	GO:0007611	IEA	BP	learning or memory
+ENSG00000162624	GO:0008270	IEA	MF	zinc ion binding
+ENSG00000162624	GO:0008585	IEA	BP	female gonad development
+ENSG00000162624	GO:0021884	IEA	BP	forebrain neuron development
+ENSG00000162624	GO:0042475	IEA	BP	odontogenesis of dentin-containing tooth
+ENSG00000162624	GO:0043565	IEA	MF	sequence-specific DNA binding
+ENSG00000109684	GO:0005070	NAS	MF	SH3/SH2 adaptor activity
+ENSG00000109684	GO:0005515	IPI	MF	protein binding
+ENSG00000109684	GO:0005622	NAS	CC	intracellular
+ENSG00000109684	GO:0006955	NAS	BP	immune response
+ENSG00000109684	GO:0007169	IEA	BP	transmembrane receptor protein tyrosine kinase signaling pathway
+ENSG00000109684	GO:0009967	NAS	BP	positive regulation of signal transduction
+ENSG00000109684	GO:0035556	IDA	BP	intracellular signal transduction
+ENSG00000151917	GO:0000122	IEA	BP	negative regulation of transcription from RNA polymerase II promoter
+ENSG00000151917	GO:0001106	IGI	MF	RNA polymerase II transcription corepressor activity
+ENSG00000151917	GO:0003682	IEA	MF	chromatin binding
+ENSG00000151917	GO:0005634	IEA	CC	nucleus
+ENSG00000151917	GO:0045666	IEA	BP	positive regulation of neuron differentiation
+ENSG00000151917	GO:0045746	IEA	BP	negative regulation of Notch signaling pathway
+ENSG00000131408	GO:0000122	IEA	BP	negative regulation of transcription from RNA polymerase II promoter
+ENSG00000131408	GO:0000978	IDA	MF	RNA polymerase II core promoter proximal region sequence-specific DNA binding
+ENSG00000131408	GO:0001077	IDA	MF	RNA polymerase II core promoter proximal region sequence-specific DNA binding transcription factor activity involved in positive regulation of transcription
+ENSG00000131408	GO:0001133	IEA	MF	sequence-specific transcription regulatory region DNA binding RNA polymerase II transcription factor recruiting transcription factor activity
+ENSG00000131408	GO:0003677	TAS	MF	DNA binding
+ENSG00000131408	GO:0003707	IEA	MF	steroid hormone receptor activity
+ENSG00000131408	GO:0004879	IEA	MF	ligand-activated sequence-specific DNA binding RNA polymerase II transcription factor activity
+ENSG00000131408	GO:0005515	IPI	MF	protein binding
+ENSG00000131408	GO:0005634	IDA	CC	nucleus
+ENSG00000131408	GO:0005654	TAS	CC	nucleoplasm
+ENSG00000131408	GO:0005737	IDA	CC	cytoplasm
+ENSG00000131408	GO:0006367	TAS	BP	transcription initiation from RNA polymerase II promoter
+ENSG00000131408	GO:0008270	IEA	MF	zinc ion binding
+ENSG00000131408	GO:0010467	TAS	BP	gene expression
+ENSG00000131408	GO:0010745	IC	BP	negative regulation of macrophage derived foam cell differentiation
+ENSG00000131408	GO:0010867	IMP	BP	positive regulation of triglyceride biosynthetic process
+ENSG00000131408	GO:0010875	IMP	BP	positive regulation of cholesterol efflux
+ENSG00000131408	GO:0010884	IEA	BP	positive regulation of lipid storage
+ENSG00000131408	GO:0010887	IMP	BP	negative regulation of cholesterol storage
+ENSG00000131408	GO:0032270	IMP	BP	positive regulation of cellular protein metabolic process
+ENSG00000131408	GO:0032369	IMP	BP	negative regulation of lipid transport
+ENSG00000131408	GO:0032376	IDA	BP	positive regulation of cholesterol transport
+ENSG00000131408	GO:0034191	IPI	MF	apolipoprotein A-I receptor binding
+ENSG00000131408	GO:0042632	IEA	BP	cholesterol homeostasis
+ENSG00000131408	GO:0043401	IEA	BP	steroid hormone mediated signaling pathway
+ENSG00000131408	GO:0044255	IEA	BP	cellular lipid metabolic process
+ENSG00000131408	GO:0045723	IMP	BP	positive regulation of fatty acid biosynthetic process
+ENSG00000131408	GO:0045861	IEA	BP	negative regulation of proteolysis
+ENSG00000131408	GO:0045892	IDA	BP	negative regulation of transcription, DNA-templated
+ENSG00000131408	GO:0045944	IDA	BP	positive regulation of transcription from RNA polymerase II promoter
+ENSG00000131408	GO:0045944	IMP	BP	positive regulation of transcription from RNA polymerase II promoter
+ENSG00000131408	GO:0046965	IEA	MF	retinoid X receptor binding
+ENSG00000131408	GO:0048384	IEA	BP	retinoic acid receptor signaling pathway
+ENSG00000131408	GO:0048550	IMP	BP	negative regulation of pinocytosis
+ENSG00000131408	GO:0051006	IMP	BP	positive regulation of lipoprotein lipase activity
+ENSG00000131408	GO:0051117	IPI	MF	ATPase binding
+ENSG00000131408	GO:0060336	NAS	BP	negative regulation of interferon-gamma-mediated signaling pathway
+ENSG00000131408	GO:0090108	IEA	BP	positive regulation of high-density lipoprotein particle assembly
+ENSG00000131408	GO:0090187	IEA	BP	positive regulation of pancreatic juice secretion
+ENSG00000131408	GO:0090340	IEA	BP	positive regulation of secretion of lysosomal enzymes
+ENSG00000131408	GO:2000188	ISS	BP	regulation of cholesterol homeostasis
+ENSG00000050030	GO:0003887	IBA	MF	DNA-directed DNA polymerase activity
+ENSG00000050030	GO:0005634	IBA	CC	nucleus
+ENSG00000050030	GO:0006261	IBA	BP	DNA-dependent DNA replication
+ENSG00000050030	GO:0007399	IEA	BP	nervous system development
+ENSG00000050030	GO:0016035	IBA	CC	zeta DNA polymerase complex
+ENSG00000050030	GO:0042276	IBA	BP	error-prone translesion synthesis
+ENSG00000171136	GO:0001664	IEA	MF	G-protein coupled receptor binding
+ENSG00000171136	GO:0005179	IEA	MF	hormone activity
+ENSG00000171136	GO:0005515	IPI	MF	protein binding
+ENSG00000171136	GO:0005576	TAS	CC	extracellular region
+ENSG00000031823	GO:0005515	IPI	MF	protein binding
+ENSG00000031823	GO:0005634	IDA	CC	nucleus
+ENSG00000031823	GO:0005654	IDA	CC	nucleoplasm
+ENSG00000031823	GO:0005737	IEA	CC	cytoplasm
+ENSG00000031823	GO:0008536	TAS	MF	Ran GTPase binding
+ENSG00000031823	GO:0015031	IEA	BP	protein transport
+ENSG00000031823	GO:0046907	IEA	BP	intracellular transport
+ENSG00000031823	GO:0070412	IPI	MF	R-SMAD binding
+ENSG00000143630	GO:0005248	IMP	MF	voltage-gated sodium channel activity
+ENSG00000143630	GO:0005249	IBA	MF	voltage-gated potassium channel activity
+ENSG00000143630	GO:0005249	IMP	MF	voltage-gated potassium channel activity
+ENSG00000143630	GO:0005886	IDA	CC	plasma membrane
+ENSG00000143630	GO:0005886	TAS	CC	plasma membrane
+ENSG00000143630	GO:0005887	IBA	CC	integral component of plasma membrane
+ENSG00000143630	GO:0007268	TAS	BP	synaptic transmission
+ENSG00000143630	GO:0030552	IEA	MF	cAMP binding
+ENSG00000143630	GO:0034765	IEA	BP	regulation of ion transmembrane transport
+ENSG00000143630	GO:0035725	IMP	BP	sodium ion transmembrane transport
+ENSG00000143630	GO:0042391	IBA	BP	regulation of membrane potential
+ENSG00000143630	GO:0042391	IMP	BP	regulation of membrane potential
+ENSG00000143630	GO:0071805	IBA	BP	potassium ion transmembrane transport
+ENSG00000143630	GO:0071805	IMP	BP	potassium ion transmembrane transport
+ENSG00000196420	GO:0005507	IDA	MF	copper ion binding
+ENSG00000196420	GO:0005509	IDA	MF	calcium ion binding
+ENSG00000196420	GO:0005634	IDA	CC	nucleus
+ENSG00000196420	GO:0008270	IDA	MF	zinc ion binding
+ENSG00000196420	GO:0042803	IPI	MF	protein homodimerization activity
+ENSG00000196420	GO:0043025	IEA	CC	neuronal cell body
+ENSG00000006210	GO:0005102	TAS	MF	receptor binding
+ENSG00000006210	GO:0005515	IPI	MF	protein binding
+ENSG00000006210	GO:0005576	IDA	CC	extracellular region
+ENSG00000006210	GO:0005615	IEA	CC	extracellular space
+ENSG00000006210	GO:0005886	TAS	CC	plasma membrane
+ENSG00000006210	GO:0006935	IDA	BP	chemotaxis
+ENSG00000006210	GO:0006952	TAS	BP	defense response
+ENSG00000006210	GO:0006955	TAS	BP	immune response
+ENSG00000006210	GO:0007155	IEA	BP	cell adhesion
+ENSG00000006210	GO:0008009	IDA	MF	chemokine activity
+ENSG00000006210	GO:0008009	TAS	MF	chemokine activity
+ENSG00000006210	GO:0009986	IDA	CC	cell surface
+ENSG00000006210	GO:0016021	IDA	CC	integral component of membrane
+ENSG00000006210	GO:0019221	TAS	BP	cytokine-mediated signaling pathway
+ENSG00000006210	GO:0030593	IEA	BP	neutrophil chemotaxis
+ENSG00000006210	GO:0030595	TAS	BP	leukocyte chemotaxis
+ENSG00000006210	GO:0032914	IEA	BP	positive regulation of transforming growth factor beta1 production
+ENSG00000006210	GO:0045766	IEA	BP	positive regulation of angiogenesis
+ENSG00000006210	GO:0048246	IEA	BP	macrophage chemotaxis
+ENSG00000006210	GO:0048247	IEA	BP	lymphocyte chemotaxis
+ENSG00000006210	GO:0050729	IEP	BP	positive regulation of inflammatory response
+ENSG00000006210	GO:0050902	TAS	BP	leukocyte adhesive activation
+ENSG00000006210	GO:0051041	IDA	BP	positive regulation of calcium-independent cell-cell adhesion
+ENSG00000006210	GO:0060055	IEA	BP	angiogenesis involved in wound healing
+ENSG00000006210	GO:2001240	IEA	BP	negative regulation of extrinsic apoptotic signaling pathway in absence of ligand
+ENSG00000142677	GO:0004896	IBA	MF	cytokine receptor activity
+ENSG00000142677	GO:0004904	TAS	MF	interferon receptor activity
+ENSG00000142677	GO:0005886	IBA	CC	plasma membrane
+ENSG00000142677	GO:0008150	ND	BP	biological_process
+ENSG00000142677	GO:0016021	IBA	CC	integral component of membrane
+ENSG00000142677	GO:0019221	IBA	BP	cytokine-mediated signaling pathway
+ENSG00000142677	GO:0042015	IEA	MF	interleukin-20 binding
+ENSG00000142677	GO:0050829	IEA	BP	defense response to Gram-negative bacterium
+ENSG00000107796	GO:0005524	IEA	MF	ATP binding
+ENSG00000107796	GO:0005615	IDA	CC	extracellular space
+ENSG00000107796	GO:0005737	IDA	CC	cytoplasm
+ENSG00000107796	GO:0005829	TAS	CC	cytosol
+ENSG00000107796	GO:0006936	TAS	BP	muscle contraction
+ENSG00000107796	GO:0008217	IEA	BP	regulation of blood pressure
+ENSG00000107796	GO:0009615	IEP	BP	response to virus
+ENSG00000107796	GO:0014829	IEA	BP	vascular smooth muscle contraction
+ENSG00000107796	GO:0015629	IEA	CC	actin cytoskeleton
+ENSG00000107796	GO:0019901	ISS	MF	protein kinase binding
+ENSG00000107796	GO:0030485	IEA	CC	smooth muscle contractile fiber
+ENSG00000107796	GO:0043234	IDA	CC	protein complex
+ENSG00000107796	GO:0070062	IDA	CC	extracellular vesicular exosome
+ENSG00000107796	GO:0072144	IEP	BP	glomerular mesangial cell development

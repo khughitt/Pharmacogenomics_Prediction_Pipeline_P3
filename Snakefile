@@ -20,7 +20,10 @@ import os
 import pandas
 from textwrap import dedent
 from snakemake.utils import makedirs
+
+shell.executable('bash')
 shell.prefix('set -o pipefail; set -e;')
+
 localrules: make_lookups
 
 config = yaml.load(open('config.yaml'))
@@ -233,7 +236,7 @@ rule prepare_example_data:
             rm -rf example_data
         fi
         mkdir -p example_data
-        (cd example_data && unzip ../sample_in_progress/raw.zip)
+        (cd example_data && cp -r ../extra/example_data/raw .)
         """
 
 
