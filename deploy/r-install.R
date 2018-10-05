@@ -1,11 +1,21 @@
-x <- read.table('r-cran-packages.txt', stringsAsFactors=FALSE)
-install.packages(as.character(x[,1], dependencies=TRUE))
+#
+# Helper script to install R dependencies
+#
 
-x <- read.table('r-bioconductor-packages.txt', stringsAsFactors=FALSE)
-source('http://bioconductor.org/biocLite.R')
-biocLite(as.character(x[,1]))
+# load latest version of BiocManager
+if ("BiocManager" %in% rownames(installed.packages()))
+	remove.packages("BiocManager")
 
-x <- read.table('r-github-packages.txt', stringsAsFactors=FALSE)
-for (i in as.character(x[,1])){
-    devtools::install_github(i)
-}
+install.packages("devtools", repos="https://cran.rstudio.com")
+devtools::install_github("Bioconductor/BiocManager")
+
+library(BiocManager)
+
+if (BiocManager::version() != "3.7")
+  BiocManager::install(version="3.7", update=TRUE, ask=FALSE)
+
+# create a combined list of all R package dependencies
+pkgs <- as.vector(unlist(sapply(Sys.glob('r-*.txt'), readLines)))
+
+# install R dependencies
+BiocManager::install(pkgs, update=FALSE, ask=FALSE)

@@ -1,9 +1,9 @@
 # Pharmacogenomics Prediction Pipeline (P3) Docker image
 #
 # Prediction Pipeline (P3).
-FROM bioconductor/release_core
+FROM bioconductor/release_core2
 
-MAINTAINER khughitt@umd.edu, dalerr@niddk.nih.gov
+MAINTAINER keith.hughitt@nih.gov, dalerr@niddk.nih.gov
 
 # Ubuntu packages
 RUN apt-get update && \
