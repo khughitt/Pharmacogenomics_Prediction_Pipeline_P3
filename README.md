@@ -33,6 +33,9 @@ git clone https://github.com/NCBI-Hackathons/Pharmacogenomics_Prediction_Pipelin
 # Change to the source code dir
 cd Pharmacogenomics_Prediction_Pipeline_P3
 
+# Rename example config file
+mv demo.config.yaml config.yaml
+
 # Prepare example data
 snakemake prepare_example_data
 
