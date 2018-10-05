@@ -1,7 +1,6 @@
 # Top-level data dir
 prefix: example_data
 
-
 # The value of "programs" should point to a YAML-formatted file that specifies
 # preludes and paths to each program used throughout the pipeline.
 #
@@ -91,11 +90,11 @@ run_info:
 
         # One model will be trained for each reponse listed the `response_list`
         # file.
-        response_list: "SIDs.txt"
+        response_list: "{prefix}/raw/metadata/drug_ids.txt"
 
         # Specify the samples to use. This file can be used to globally filter
         # out a particular sample for this run
-        sample_list: "celllines.txt"
+        sample_list: "{prefix}/raw/metadata/cell_line_ids.txt"
 
         # The "process_response" rule creates several output files for each
         # sample. The `response_template` specifies which file to use, and must

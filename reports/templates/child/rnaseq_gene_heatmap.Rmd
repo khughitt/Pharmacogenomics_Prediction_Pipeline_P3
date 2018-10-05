@@ -5,7 +5,7 @@
 counts_filtered <- filter_low_counts(mat)
 
 # sub-sample data
-ind <- sample(1:nrow(counts_filtered), 2000)
+ind <- sample(1:nrow(counts_filtered), min(2000, nrow(counts_filtered)))
 heatmap.2(counts_filtered[ind,], trace='none', labRow=FALSE,
           col=redgreen(75))
 ```

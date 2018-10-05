@@ -3,14 +3,17 @@ caret
 class
 devtools
 dplyr
+DT
 e1071
 earth
+foreach
 gam
 gbm
 genefilter
 ggplot2
 gplots
 glmnet
+heatmaply
 Hmisc
 ipred
 knitr
@@ -37,4 +40,3 @@ stepPlr
 sva
 snow
 snowfall
-foreach
