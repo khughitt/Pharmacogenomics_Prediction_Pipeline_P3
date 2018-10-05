@@ -1,0 +1,55 @@
+# Pharmacogenomics Prediction Pipeline (P3) Docker image
+#
+# Prediction Pipeline (P3).
+Bootstrap: docker
+From: bioconductor/release_core2
+
+########################
+# %labels
+########################
+%labels
+Maintainer keith.hughitt@nih.gov
+Version v1.0
+
+########################
+# %setup
+########################
+mkdir /tmp
+
+########################
+# %files
+########################
+%files
+r-*.txt /tmp/
+r-install.R  /tmp/
+conda-requirements.txt /tmp/
+
+########################
+# %post
+########################
+%post
+
+# Install system dependencies
+apt-get update
+apt-get install -y libcurl4-openssl-dev libxml2-dev tree
+
+# Install R prerequisites
+cd /tmp
+Rscript r-install.R
+
+# Install Miniconda
+wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh -b -p /anaconda
+
+export PATH=/anaconda/bin:$PATH
+
+# Install non-R requirements using conda
+conda config --add channels defaults
+conda config --add channels bioconda
+conda config --add channels conda-forge
+
+conda install -y --file conda-requirements.txt
+
+# Set /data as working directory
+mkdir /data
+cd /data
