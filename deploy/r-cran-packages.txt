@@ -22,7 +22,7 @@ heatmaply
 Hmisc
 ipred
 kableExtra
-kernLab
+kernlab
 knitr
 lattice
 LogicReg
@@ -34,7 +34,6 @@ modes
 multimode
 nloptr
 nnet
-parallel
 party
 polspline
 pracma

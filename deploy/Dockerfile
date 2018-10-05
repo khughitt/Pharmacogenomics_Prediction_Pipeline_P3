@@ -25,13 +25,16 @@ WORKDIR /tmp
 RUN R -e "source('r-install.R')"
 
 # Install Miniconda
-RUN wget http://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh && bash Miniconda-latest-Linux-x86_64.sh -b -p /tmp/conda-build/anaconda
+RUN wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh && bash Miniconda3-latest-Linux-x86_64.sh -b -p /tmp/conda-build/anaconda
 ENV PATH=/tmp/conda-build/anaconda/bin:$PATH
 
-# Install non-R requirements via the bioconda channel
-ADD \
-    conda-requirements.txt \
-    /tmp/
+# Install non-R requirements using conda
+ADD conda-requirements.txt /tmp/
+
+RUN conda config --add channels defaults
+RUN conda config --add channels bioconda
+RUN conda config --add channels conda-forge
+
 RUN conda install -y -c bioconda --file conda-requirements.txt
 
 # Create directory for data
