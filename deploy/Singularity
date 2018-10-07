@@ -50,6 +50,3 @@ conda config --add channels conda-forge
 
 conda install -y --file conda-requirements.txt
 
-# Set /data as working directory
-mkdir /data
-cd /data
