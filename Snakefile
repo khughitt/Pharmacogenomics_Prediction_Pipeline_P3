@@ -31,40 +31,39 @@ config['prefix'] = os.path.abspath(config['prefix'])
 
 class Program(object):
     """
-    Represents a program from `programs.yaml` stanza which has a format like::
+    Represents a program software config stanza which has a format like::
 
         samtools:
-            prelude: module load samtools
+            init: module load samtools
             path: samtools
             version_string: samtools | grep Version | cut -f 1
     """
     def __init__(self, d):
-        if d['prelude'] is None:
-            self.prelude = ""
+        if d['init'] is None:
+            self.init = ""
         else:
-            self.prelude = d['prelude']
+            self.init = d['init']
         self.path = d['path']
 
 
 class Programs(object):
     """
-    Represents the entire `programs.yaml` file, where each program
+    Represents the entire software config section, where each program
     and associated info can be accessed via chained dot notation.
 
     E.g.,::
 
-        p = programs('programs.yaml')
+        p = Programs(config['software'])
 
         # construct a command like this::
         #
-        "{p.samtools.prelude} && {p.samtools.path} view a.bam".format(p=p)
+        "{p.samtools.init} && {p.samtools.path} view a.bam".format(p=p)
     """
     def __init__(self, d):
         for k, v in d.items():
             setattr(self, k, Program(v))
 
-
-programs = Programs(yaml.load(open(config['programs'])))
+programs = Programs(yaml.load(open(config['software'])))
 
 # Each run can define its own list of samples. Here we get the unique set of
 # samples used across all runs so that we can generate the features for them.

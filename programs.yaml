@@ -1,7 +1,0 @@
-Rscript:
-    prelude: "type module &>/dev/null && module load R pandoc"
-    path: "Rscript"
-
-bedtools:
-    prelude: "type module &>/dev/null && module load bedtools"
-    path: "bedtools"
