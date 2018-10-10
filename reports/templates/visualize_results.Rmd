@@ -19,7 +19,7 @@ output:
 Setup
 -----
 
-```{r load_libs, message=FALSE, warning=FALSE, include=FALSE}
+```{r load_libs, message=FALSE, warning=FALSE}
 library('DT')
 library('dplyr')
 library('knitr')
@@ -221,16 +221,20 @@ drug_scores <- data_frame(drug=rownames(rsquared),
 # exclude low-performing drugs;
 # to pass the filter, drug should have either or both a max R^2 >= 0.25, or
 # a trimmed mean (mean of top 10 R^2 values) >= 0.15.
-top_drug_hits <- (drug_scores %>% filter(max_rsquared >= 0.25 | 
-                                        trimmed_mean_rsquared >= 0.15))$drug
 
-# if no drugs pass this criterion, print an error message
+# Note: 2018/10/09
+# Temporarily disabling top drug filtering for development purposes..
+#top_drug_hits <- (drug_scores %>% filter(max_rsquared >= 0.25 | 
+#                                        trimmed_mean_rsquared >= 0.15))$drug
+top_drug_hits <- drug_scores$drug
+
+## if no drugs pass this criterion, print an error message
 if (length(top_drug_hits) == 0) {
   stop('No drugs meet R^2 cutoff!')
 }
 
-feature_importance_filtered <- feature_importance[,colnames(feature_importance) %in%
-                                                   top_drug_hits]
+feature_importance_filtered <- feature_importance[, colnames(feature_importance) %in%
+                                                    top_drug_hits]
 ```
 
 #### Trimmed mean variable importance
@@ -289,7 +293,7 @@ xkable(trimmed_mean_import, 15,
        str_max_width=60)
 
 write.table(trimmed_mean_import, sep='\t', quote=FALSE,
-            file=file.path(output_dir, 'trimmed_mean_featurtrimmed_mean_featuree_importance.tab'),
+            file=file.path(params$output_dir, 'trimmed_mean_featurtrimmed_mean_featuree_importance.tab'),
             row.names=FALSE)
 ```
 
@@ -326,7 +330,7 @@ xkable(df)
 
 Features ranked by _max_ random forest variable importance across all drugs.
 
-```{r results='asis', message=FALSE}
+```{r max_var_importance_features, results='asis', message=FALSE}
 highest_max_feature_importance <- as.data.frame(sort(max_feature_importance, decreasing=TRUE))
 colnames(highest_max_feature_importance) <- c('Importance')
 highest_max_feature_importance <- rownames_to_column(highest_max_feature_importance, 'Feature')
@@ -339,7 +343,7 @@ xkable(highest_max_feature_importance, 15,
        str_max_width=60)
 
 write.table(highest_max_feature_importance, sep='\t', quote=FALSE,
-            file=file.path(output_dir, 'highest_max_feature_importance.tab'),
+            file=file.path(params$output_dir, 'highest_max_feature_importance.tab'),
             row.names=FALSE)
 ```
 
@@ -350,13 +354,14 @@ write.table(highest_max_feature_importance, sep='\t', quote=FALSE,
 First, let's look at a list of the drugs/compounds for which P3 was able to
 predict the response with a R^2 >= 0.25.
 
-```{r}
+```{r get_max_rsqured}
 # convert to dataframe and add max risk column
 rsquared <- data.frame(rsquared)
 rsquared$max_rsquared <- apply(rsquared, 1, max)
 
 # get a table of the compounds with a R^2 of at least 0.25 for one
 # or more learners 
+
 rsquared %>% 
     rownames_to_column(var='compound') %>%
     filter(max_rsquared >= 0.25) %>%
@@ -394,7 +399,7 @@ for (i in seq_along(top_drug_hits)) {
         rownames_to_column('feature') %>%
         arrange(desc(feature_importance)) %>%
         head(15) %>%
-        mutate(description=get_feature_descriptions(feature)) %>%
+        #mutate(description = get_feature_descriptions(feature)) %>%
         kable %>%
         print
 }
@@ -428,7 +433,9 @@ dat <- rsquared %>%
 # clip at [0,]
 dat[dat < 0] <- 0
 
-heatmaply(dat) %>% layout(margin=list(l=100, b=250))
+if (nrow(dat) > 1) {
+  heatmaply(dat) %>% layout(margin=list(l=100, b=250))
+}
 ```
 
 
