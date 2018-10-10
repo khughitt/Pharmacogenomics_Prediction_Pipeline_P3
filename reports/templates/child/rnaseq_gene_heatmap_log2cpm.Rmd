@@ -5,7 +5,7 @@
 log2cpm_counts_filtered <- filter_low_counts(log2cpm_counts)
 
 # sub-sample data
-ind <- sample(1:nrow(log2cpm_counts_filtered), 2000)
+ind <- sample(1:nrow(log2cpm_counts_filtered), min(2000, nrow(log2cpm_counts_filtered)))
 heatmap.2(log2cpm_counts_filtered[ind,], trace='none', labRow=FALSE,
           col=redgreen(75))
 ```
