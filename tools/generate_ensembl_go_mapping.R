@@ -29,7 +29,7 @@ go_terms$TERM = go_term_names$TERM[match(go_terms$GO, go_term_names$GOID)]
 
 # Remove redundant annotations which differ only in source/evidence and drop
 # entries with NAs
-gene_go_mapping = unique(go_terms[complete.cases(go_terms),])
+gene_go_mapping = unique(go_terms[complete.cases(go_terms), ])
 
 # Save output
 write.table(gene_go_mapping, quote=FALSE, sep='\t', 

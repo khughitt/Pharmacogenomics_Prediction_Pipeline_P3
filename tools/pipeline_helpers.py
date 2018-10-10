@@ -29,6 +29,10 @@ def pathway_scores_from_variants(variants_df, pathway_df, index_field):
     Similar to `pathway_scores_from_zscores`, but with different subsetting
     logic that makes sense with integer variants per gene.
     """
+    # check to make sure data frame share gene ids
+    if len(set(variants_df.index).intersection(set(pathway_df.index))) == 0:
+        raise Exception("Pathway and variant dataframe share no common gene IDs!")
+
     x = variants_df.join(pathway_df)
     dfs = []
     dfs.append(index_converter(pd.pivot_table(x, index=index_field, aggfunc=np.sum), 'sum_var'))

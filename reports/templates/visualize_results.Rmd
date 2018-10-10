@@ -224,6 +224,11 @@ drug_scores <- data_frame(drug=rownames(rsquared),
 top_drug_hits <- (drug_scores %>% filter(max_rsquared >= 0.25 | 
                                         trimmed_mean_rsquared >= 0.15))$drug
 
+# if no drugs pass this criterion, print an error message
+if (length(top_drug_hits) == 0) {
+  stop('No drugs meet R^2 cutoff!')
+}
+
 feature_importance_filtered <- feature_importance[,colnames(feature_importance) %in%
                                                    top_drug_hits]
 ```

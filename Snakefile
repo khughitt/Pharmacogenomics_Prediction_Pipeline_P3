@@ -262,8 +262,8 @@ rule do_filter:
         # NOTE: if exceptions are raised and they point to this line, check the
         # actual filter function code.
         d = function(infile=str(input[0]),
-                 features_label=wildcards.features_label,
-                 output_label=wildcards.output_label)
+                     features_label=wildcards.features_label,
+                     output_label=wildcards.output_label)
         d[samples].to_csv(str(output[0]), sep='\t')
 
 # ----------------------------------------------------------------------------
